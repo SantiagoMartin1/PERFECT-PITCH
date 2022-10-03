@@ -1,0 +1,188 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-vl{
+    border: 0;
+    margin: 0;
+    border-left: 1px solid grey;
+    height: 200px;
+    float: left;
+}
+
+.contenedor--links{
+    padding: 80px;
+    position: absolute;
+    left: 40px;
+    top: 150px;
+}
+
+.navegacion a{
+    padding: 30px;
+}
+
+
+.contenedor--titulos{
+    position: absolute;
+    left: 600px;
+    top: 35px;
+}
+
+.contenedor--links{
+    padding: 100px;
+    position: absolute;
+    top: 150px;
+    left: -30px;
+}
+
+.contenedor--links a{
+    position: relative;
+    padding: 5px 5px;
+    background: transparent;
+    color: black;
+    width: 220px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 30px;
+    border: 2px solid rgba(201, 170, 255, 0.5);
+    border-radius: 14px;
+    cursor: pointer;
+    outline: none;
+    transition: all 300ms;
+    line-height: 80px;
+}
+
+/*configuracion*/
+.contenedor--configuracion{
+    position: absolute;
+    padding: 50px;
+    top: 200px;
+    left: 500px;
+}
+
+.config--nombre{
+    position: absolute;
+    padding: 15px;
+    top: -10px;
+    left: 5px;
+}
+
+.config--idioma{
+    position: absolute;
+    padding: 5px;
+    top: 150px;
+    left: 5px;
+}
+
+.config--nombre h3{
+    font-size: 28px;
+}
+
+.config--nombre .txt--name{
+    position: absolute;
+    top: 22px;
+    left: 325px;
+}
+
+.config--nombre .btn--name{
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    padding: 5px 5px;
+    border: 2px solid black;
+    font-size: 12px;
+    background: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+    background-color: #D3CBFF;
+    outline: none;
+    transition: all 300ms;
+}
+
+.config--nombre .btn--name:hover{
+    background: #fff;
+    color: #fff;
+    background-color: #9d8dfc;
+}
+
+
+
+.config--Contraseña{
+    position: absolute;
+    
+}
+
+/*configuracion*/
+
+/*subir archivos*/
+.drag-area {
+    border: 5px dashed #ddd;
+    width:  500px;
+    height: 700px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .drag-area.active{
+      background-color: #b8d4fe;
+      color: black;
+      border: 2px dashed #618ac9;
+  }
+
+  .drag-area h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+  }
+
+  .drag-area span {
+      font-size: 25px;
+      color: #000;
+  }
+
+  .drag-area button {
+      padding: 10px 25px;
+      font-size: 20px;
+      border: 0;
+      outline: none;
+      background-color: #5256ad;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 20px;
+  }
+
+  .file-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px;
+      border: solid 1px #ddd;
+  }
+
+  #preview {
+      margin-top: 10px;
+  }
+
+  .status-text {
+      padding: 0 10px;
+  }
+  
+  .success{
+      color: #52ad5a;
+  }
+
+  .failure{
+      color: #ff0000;
+  }
+
+  /*subir archivos*/

@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My account</title>
+    <link rel="stylesheet" type="text/css" href="config.css">
+</head>
+<body>
+
+    <header>
+        <div class="header--container">
+            <div class="caja--logo">
+                <a class="img-logo" href="#"><img src="#" alt="#"></a>
+            </div>
+            <div class="header-lnks">
+                    <div class="header--logo">
+                        <a href="account.html"><img class="user-logo" src="user--logo.png" alt="logo_user"></a>
+                    </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+            <div class="main-config">
+                <div class="main-name">
+                    <h3 class="main-tittle">$usu_login</h3>
+                    <form action="post">
+                        <input type="text" class="txt-name">
+                        <input type="submit" value="Cambiar nombre" class="btn-name">
+                    </form>
+                </div>
+                <div class="main-idioma">
+                    <form action="post">
+                        <label for="Idiomas">Cambiar Idioma: </label>
+                        <select name="Idiomas" class="Idioma">
+                            <option value="Ingles">Ingles</option>
+                            <option value="Esnpaniol">Español</option>
+                        </select>
+                        <input type="submit" value="Guardar cambios" class="btn-idiomas">
+                    </form>
+                </div>
+            </div>
+    </main>
+    <nav class="nav-main">
+        <div class="nav-hr">
+            <hr class="nav-vl">
+        </div>
+        <div class="nav-nav">
+            <ol class="nav--menu">
+                <li id="nav-lnks"><a href="#">Configuración</a></li>
+                <li id="nav-lnks"><a href="archivos.html">Mis archivos</a></li>
+                <li id="nav-lnks"><a href="account.html">Subir archivos</a></li>
+            </ol>
+        </div>
+    </nav>
+    
+        <!-- fetch("http://localhost:3000/datos-del-usuario") -->
+
+    <footer class="footer-main">
+        <div class="footer-container">
+            <hr class="footer_hr">
+            <div class="footer--info">
+                <div class="footer-h5">
+                    <h5 class="footer_h5">Sobre nosotros</h5>
+                </div>
+                <div class="footer-p">
+                    <p class="footer_p">bla bla bla bla</p>
+                </div>
+            </div>
+            <div class="footer-lnks">
+                <a href="https://www.instagram.com/santi_.martin/"><img class="logo-ig" src="./logo--ig.png" alt="instagram"></a>
+                <a class="contact_a" href="https://campus.ort.edu.ar/secundaria/belgrano/tic/2022-nr4d"><img class="ort-img" src="ort-logo.png" alt="logo_ort"></a>
+            </div>
+        </div>          
+    </footer>
+</body>
+</html>

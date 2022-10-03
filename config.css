@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header--container{
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 183, 255, 0.5);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    padding: 0;
+}
+ 
+.header-lnks{
+    display: inline-block;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 5px;
+    margin-left: 1200px;
+    margin-top: -15px;
+}
+ 
+.header--logo{
+    margin-left: -30px;
+}
+
+.user-logo{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    width: 40px;
+    height: 50px;
+    margin-top: -12px;
+    margin-left: -12px;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-config{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.main-name{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.main-tittle{
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    padding: 30px;
+    font-size: 25px;
+}
+
+form{
+    padding: 15px;
+}
+
+.txt-name{
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 5px 5px;
+    margin: 15px;
+}
+
+.btn-name{
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    border: 2px solid black;
+    font-size: 14px;
+    background: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+    outline: none;
+    transition: .2s all ease;
+    padding: 10px 10px;
+    margin: 25px;
+}
+
+.main-idioma{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+label{
+    padding: 30px;
+}
+
+select{
+    background-color: transparent;
+    border: none;
+    padding: 5px 5px;
+    font-size: 15px;
+}
+
+select:focus{ 
+    outline: none;
+}
+
+.btn-idiomas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    font-size: 14px;
+    background: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+    outline: none;
+    transition: .2s all ease;
+    padding: 10px 10px;
+    margin: 25px;
+}
+
+.nav-main{
+    width: 30vh;
+    height: 20vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-main{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 0px;
+}
+
+.footer_hr{
+    color: #fff;
+    width: 100vh;
+    margin: auto;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: small;
+}
+
+.footer_h5{
+    font-size: 15px;
+    color: #fff;
+}
+
+.footer_p{
+    font-size: 10px;
+    color: #fff;
+}
+
+.footer-lnks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: -4vh;
+}
+
+.logo-ig{
+    width: 40px;
+    height: 40px;
+}
+
+.ort-img{
+    width: 100px;
+    height: 60px;
+}

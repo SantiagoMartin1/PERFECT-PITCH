@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(../imgs/bki2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+footer{
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+}
+
+.caja--todo{
+    position: absolute;
+    padding: 70px 80px;
+    top: 200px;
+    left: 550px;
+    background-color: rgba(201, 170, 255, 0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.verificacion--pswrd .h3{
+    position: relative;
+    padding: 5px 5px;
+    top: -30px;
+    font-size: 20px;
+}
+
+.verificacion--pswrd .p{
+    position: relative;
+    padding: 2px 2px;
+    top: 5px;
+    left: -45px;
+    font-size: 17px;
+}
+
+.verificacion--pswrd .input--chk{
+    position: relative;
+    padding: 2px 2px;
+    top: -26px;
+    left: 185px;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+}
+
+.verificacion--pswrd .submit{
+    position: relative;
+    padding: 10px 20px;
+    top: 30px;
+    left: -70px;
+    font-size: 14px;
+    background: transparent;
+    border: 2px solid rgba(209, 205, 205, 0.781);
+    border-radius: 14px;
+}
+
+.caja--todo2{
+    position: absolute;
+    padding: 90px 75px;
+    top: 200px;
+    left: 550px;
+    background-color: rgba(201, 170, 255, 0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.cambio--pswrd .lbl_contra{
+    position: relative;
+    padding: 2px 2px;
+    top: -12px;
+    left: -55px;
+    font-size: 17px;
+}
+
+.cambio--pswrd .new_pswrd{
+    position: relative;
+    padding: 2px 2px;
+    top: -35px;
+    left: 110px;
+    border-radius: 5px;
+    background-color: #fff;
+    backdrop-filter: blur(10px);
+}
+
+.cambio--pswrd .lbl_confirm{
+    position: relative;
+    padding: 2px 2px;
+    top: 20px;
+    left: -55px;
+    font-size: 17px;
+}
+
+.cambio--pswrd .confirm_new{
+    position: relative;
+    padding: 2px 2px;
+    top: -13px;
+    left: 120px;
+    border-radius: 5px;
+    background-color: #fff;
+    backdrop-filter: blur(10px);
+}
+
+.cambio--pswrd .input_submit{
+    position: relative;
+    padding: 10px 20px;
+    top: 50px;
+    left: -90px;
+    font-size: 14px;
+    background: transparent;
+    border: 2px solid rgba(209, 205, 205, 0.781);
+    border-radius: 14px;
+}
